@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skill">Skill</a>
+        <a href="#Project">Project</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+        
+      <div class="content">
+        <h1>Hello guys,</h1>
+        <br />
+        <h2>This is Keerthana</h2>
+        <h2>Undergraduate student</h2>
+
+        <p>
+          A passionate and dedicated Electronics and Communication
+          <br />Engineering student, currently pursuing my degree at Karpagam
+          <br />College of Engineering
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="Resume.pdf" class="cv" target="_blank">Download CV</a>
+      </div>
+      <div class="home-image">
+        <img
+          src="home1.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="About" id="About">
+      <div class="about-img">
+        <img
+          src="home2.png"
+          alt=""
+        />
+      </div>
+
+      <div class="about-content">
+        <h1>About Me</h1>
+
+        <h2>I'm Keerthana</h2>
+        <p>
+          I am currently pursuing my degree in Electronics and Communication at
+          Karpagam College of Engineering. I am in my Third Year of Study. My
+          technical skills include Microcontrollers and Microprocessors,
+          Embedded System, and proficiency in programming languages such as C
+          and java. My goal is to contribute to advancements in the software and
+          make a positive impact on society.
+        </p>
+
+        <a href="#" class="cv">Read more</a>
+      </div>
+    </section>
+
+    <section class="Skill" id="Skill">
+      <h1>Skills</h1>
+      <br /><br />
+      <div class="skills-container">
+        <div class="skill-box">
+          <div class="skill-name"><b>Java Programming</b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name"><b>C Programming<b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 70%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name"><b>Data Structures</b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 50%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name"><b>DataBase Management</b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 60%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name"><b>Web Development</b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 40%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name"><b>Arduino</b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name"><b>Microcontrollers and Microprocessors</b></div>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Project" id="Project">
+      <h2 class="heading">My Latest Project</h2>
+
+      <div class="Portfolio-container">
+        <div class="Portfolio-box">
+          <img
+            src="pro1.jpg"
+            alt=""
+          />
+          <div class="Portfolio-layer">
+            <h4>Data Structure</h4>
+            <p>Flight reservation project using graph and dijkstra algorithm</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="Portfolio-box">
+          <img
+            src="pro2-.png"
+            alt=""
+          />
+          <div class="Portfolio-layer">
+            <h4>Arduino</h4>
+            <p>Dam monitoring and controlling project using arduino uno</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="Portfolio-box">
+          <img
+            src="pro3.jpg"
+            alt=""
+          />
+          <div class="Portfolio-layer">
+            <h4>Java DataBase Connectivity</h4>
+            <p>A Basic jdbc project with creation, insertion and updation</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="Contact">
+      <div class="content">
+        <h1>Contact Me</h1>
+        <p>
+          If anybody want to reach out to me, Contact me in this way. Feel free
+          to reach out to me
+        </p>
+
+        <form action="#" method="POST">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email" >Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
